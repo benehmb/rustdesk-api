@@ -24288,12 +24288,9 @@ var $async$K7=A.I(function(a,b){if(a===1)return A.E(b,r)
 while(true)switch(s){case 0:if($.z==null)A.aI9()
 $.z.toString
 q=$.cj().AY()
-p=A.abi(A.aLT("AIzaSyCgehIZk1aFP0E7wZtYRRqrfvNiNAF39-A","1:768133699366:web:d50faf0792cb208d7993e7","rustdesk.firebaseapp.com","https://rustdesk.firebaseio.com","G-9PEH85N6ZQ","768133699366","rustdesk","rustdesk.appspot.com"))
 s=2
 return A.L(q,$async$K7)
-case 2:s=3
-return A.L(p,$async$K7)
-case 3:A.aEG()
+case 2:A.aEG()
 A.b86()
 if($.z==null)A.aI9()
 o=$.z
@@ -48674,34 +48671,15 @@ case 2:return A.F(null,r)}})
 return A.G($async$tC,r)},
 tx(){var s=0,r=A.H(t.H),q,p=this,o,n,m
 var $async$tx=A.I(function(a,b){if(a===1)return A.E(b,r)
-while(true)switch(s){case 0:if($.aC().h(0,"firebase")!=null){s=1
-break}o=p.gOx()
-n=p.gPu()
-s=3
-return A.L(p.tC("https://www.gstatic.com/firebasejs/"+o+"/firebase-app.js"),$async$tx)
-case 3:m=$.aGO
-m=m.gaD(m)
-s=4
-return A.L(A.nW(A.jz(m,new A.abd(p,n,o),A.l(m).i("o.E"),t.uz),t.H),$async$tx)
-case 4:case 1:return A.F(q,r)}})
+while(true)switch(s){case 0:s=1
+break
+case 1:return A.F(q,r)}})
 return A.G($async$tx,r)},
 y4(){var s=0,r=A.H(t.H),q,p=this,o,n,m,l,k,j
 var $async$y4=A.I(function(a,b){if(a===1)return A.E(b,r)
-while(true)switch(s){case 0:j=$.aC()
-if(j.h(0,"firebase")!=null){s=1
-break}o=p.gOx()
-n=p.gPu()
-m="https://www.gstatic.com/firebasejs/"+o
-l=t.N
-A.aMp(j.h(0,"require")).af("config",[A.aMq(A.ai(["paths",A.ai(["@firebase/app",m+"/firebase-app","@firebase/analytics",m+"/firebase-analytics","@firebase/app-check",m+"/firebase-app-check","@firebase/auth",m+"/firebase-auth","@firebase/firestore",m+"/firebase-firestore","@firebase/functions",m+"/firebase-functions","@firebase/messaging",m+"/firebase-messaging","@firebase/storage",m+"/firebase-storage","@firebase/database",m+"/firebase-database","@firebase/remote-config",m+"/firebase-remote-config","@firebase/performance",m+"/firebase-performance","@firebase/installations",m+"/firebase-installations"],l,l)],l,t.GU))])
-l=new A.af($.ar,t.LR)
-k=A.a(["@firebase/app"],t.s)
-m=$.aGO
-m.gaD(m).Z(0,new A.abb(n,k))
-j.af("require",[A.aMq(k),new A.abc(new A.aY(l,t.zh))])
-s=3
-return A.L(l,$async$y4)
-case 3:case 1:return A.F(q,r)}})
+while(true)switch(s){case 0:s=1
+break
+case 1:return A.F(q,r)}})
 return A.G($async$y4,r)},
 kE(a,b){return this.apQ(a,b)},
 apQ(a,b){var s=0,r=A.H(t.h3),q,p=this,o,n,m,l,k,j
@@ -48750,13 +48728,10 @@ A.aba.prototype={
 $1(a){return J.dg(a)},
 $S:298}
 A.abd.prototype={
-$1(a){var s=a.a
-if(B.c.v(this.b,s))return A.dx(null,t.z)
-return this.a.tC("https://www.gstatic.com/firebasejs/"+this.c+"/firebase-"+s+".js")},
+$1(a){return A.dx(null,t.z)},
 $S:301}
 A.abb.prototype={
-$1(a){var s=a.a
-if(!B.c.v(this.a,s))this.b.push("@firebase/"+s)},
+$1(a){},
 $S:303}
 A.abc.prototype={
 $1(a){$.aC().l(0,"firebase",a)
